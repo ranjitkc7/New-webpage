@@ -1,0 +1,421 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main-header {
+  background-color: #003566;
+  color: white;
+  padding: 2rem;
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: bold;
+  align-items: center;
+  max-height: 0.5rem;
+  justify-content: space-between;
+}
+.comA {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.Phone,
+.gmail {
+  display: flex;
+  gap: 1rem;
+}
+
+.phone-number {
+  display: flex;
+}
+
+.icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.icons a {
+  color: white;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 1rem;
+  border-bottom: 3px solid #ffd60a;
+}
+
+.logo {
+  display: flex;
+  gap: 12px;
+}
+
+.logo img {
+  height: 4em;
+  width: 4em;
+  border-radius: 50%;
+}
+
+.logo-text {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.nav-items {
+  display: flex;
+  gap: 6rem;
+  color: black;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.buttonA {
+  display: flex;
+  gap: 1rem;
+}
+
+.button-1 {
+  background-color: #003566;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.button-2 {
+  background-color: #ffd60a;
+  color: black;
+  border: none;
+  padding: 4px 8px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.main-section {
+  height: 80vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.main-section img{
+  position: absolute;
+  height: 80vh;
+  background-size: cover;
+  width: 100%;
+  opacity: 0.5;
+  z-index: -9;
+}
+
+.main-text {
+  margin-top: 6rem;
+}
+
+.textA p {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #ffd60a;
+}
+
+.textB p {
+  font-size: 5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.textC {
+  margin-top: 1rem;
+}
+
+.textC p {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: #ffd60a;
+}
+
+.Enroll-Btn {
+  background-color: #003566;
+  color: white;
+  margin-top: 1rem;
+  border: none;
+  padding: 4px 8px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: fit-content;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.t-text p {
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.about-div {
+  margin: 1rem;
+  height: 60vh;
+  width: full;
+  display: flex;
+  position: relative;
+  background-color: rgb(180, 181, 182);
+  border-radius: 1rem;
+}
+
+.pic-1 {
+  display: flex;
+  position: absolute;
+  height: 16.2rem;
+  align-items: center;
+  justify-content: center;
+  width: 30.2rem;
+  top: 3.5rem;
+  left: 7rem;
+  border: 3px solid gainsboro;
+  border-radius: 1rem;
+  z-index: 2;
+  overflow: hidden;
+}
+.pic-1 img {
+  height: 16rem;
+  width: 30rem;
+}
+
+.content-div {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  max-width: 30%;
+  height: 55vh;
+  top: 3rem;
+  right: 12rem;
+}
+
+.content-div p {
+  font-size: 1.4rem;
+  font-weight: 100;
+  padding-top: 12px;
+}
+
+.c-text p {
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+.last-sec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.last-div {
+  margin: 2rem 10rem;
+  width: 70%;
+  display: grid;
+}
+.inner-divA {
+  border-radius: 22px;
+  display: grid;
+  gap: 5rem;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-item {
+  height: 20rem;
+  width: 20rem;
+  border: 2px solid black;
+  border-radius: 22px;
+}
+
+.grid-item img {
+  height: 20rem;
+  overflow: hidden;
+  z-index: -1;
+  width: 20rem;
+  border-radius: 22px;
+}
+
+.grid-item1 h2, .grid-item2 h2, .grid-item3 h2{
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.grid-item1 p, .grid-item2 p, .grid-item3 p{
+  font-size: 1.4rem;
+  font-weight: 400;
+  padding-left: 1.8rem;
+}
+
+.lastA-div{
+  display: flex;
+  font-size: 1.7rem;
+  gap: 3px;
+  padding-left: 15rem;
+}
+
+.lastA-div span{
+  color: #470aff;
+}
+
+.footer-sec{
+  margin-top: 1rem;
+  height: 15rem;
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #003566;
+}
+
+.footerA{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 10rem;
+  color: white;
+  padding-left: 2rem;
+  width: 30%;
+}
+
+.footerA p{
+  font-size: 1.2rem;
+  margin-top: 5px;
+}
+
+.footerB{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 10rem;
+  color: white;
+  width: 20%;
+}
+
+.footerB div{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 1.2rem;
+}
+
+.footerC{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding-left: 2rem;
+  width: 30%;
+}
+
+.footerC span{
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.last-footer{
+  display: flex;
+  position: absolute;
+  bottom: 4px;
+ left: 27rem;
+  color: white;
+}
+
+#form-div{
+  height: 90vh;
+  width: 100%;
+  display: none;
+  position: absolute;
+  background-color: white;
+  top:9.2rem;
+  align-items: center;
+  justify-content: center;
+  right:0;
+}
+
+.form-innerdiv{
+  height: 72vh;
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  border: 2px solid rgb(213, 213, 213);
+  background-color: rgb(213, 213, 213); 
+}
+
+.form-innerdiv h1{
+  text-align: center;
+  font-size: 2rem;
+  padding: 4px 0;
+  border-bottom: 2px solid black;
+}
+
+.f-program{
+  display: flex;
+  flex-direction: column;
+  gap:4px;
+  width: fit-content;
+  padding: 10px ;
+  font-size: 1.5rem;
+}
+
+input{
+  padding: 4px;
+  font-size: 1.2rem;
+  border: 2px solid rgb(213, 213, 213);
+  border-radius: 8px;
+  width: 20rem;
+  outline: none;
+}
+
+.f-name, .f-phone, .f-dob{
+  display: flex;
+  gap:6rem;
+  width: fit-content;
+  padding: 10px ;
+  font-size: 1.5rem;
+}
+
+.f-name span, .f-phone span, .f-dob span{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.f-button{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: fit-content;
+  padding: 8px 14px;
+  font-size: 1.5rem;
+  border: 2px solid rgb(213, 213, 213);
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+
